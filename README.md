@@ -6,6 +6,11 @@ In a traditional LMS, the instructor has to create an assignment, host it in the
 - **Multi-Language Support**: Supports Python (.py), C (.c), C++ (.cpp), Java (.java), and Golang (.go).
 - **Role-Based Access**: Hides test cases and other students' grades on the server side.
 - **Secure Execution**: Limits execution to 5 seconds per submission to discourage inefficient implementations.
+## Architecture
+### Design Overview
+![CAMS Design Overview](./Assets/design-overview.png)
+### Request Pipeline
+![CAMS Request Flow](./Assets/request-flow.png)
 ## Getting Started
 ### Prerequisites
 - A modern computer with curl installed.
